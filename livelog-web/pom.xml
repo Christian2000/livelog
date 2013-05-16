@@ -29,7 +29,11 @@
                     <execution>
                         <phase>package</phase>
                         <goals>
+                            <!-- The following goals works well, however, Intellij insists that they do not.
+                            The warnings are suppressed until a better solution is available.-->
+                            <!--suppress MavenModelInspection -->
                             <goal>war</goal>
+                            <!--suppress MavenModelInspection -->
                             <goal>exploded</goal>
                         </goals>
                     </execution>
