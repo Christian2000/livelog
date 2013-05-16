@@ -1,6 +1,6 @@
-package se.christianjohansen.livelog;
+package se.christianjohansen.livelog.domain;
 
-import se.christianjohansen.livelog.client.LoggingClient;
+import se.christianjohansen.livelog.domain.client.LoggingClient;
 
 public class LogEntry {
     private LoggingClient loggingSystem;

@@ -1,4 +1,4 @@
-package se.christianjohansen.livelog.client;
+package se.christianjohansen.livelog.domain.client;
 
 import org.apache.commons.lang.Validate;
 
