@@ -5,5 +5,7 @@
 <h1>Livelog</h1>
 
 <h2>${msg}</h2>
+
+<img src="resources/mvc-basic-form.png"/>
 </body>
 </html>

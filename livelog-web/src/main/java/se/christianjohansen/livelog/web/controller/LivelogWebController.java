@@ -8,7 +8,7 @@ import java.util.Map;
 
 @Controller
 public class LivelogWebController {
-    @RequestMapping({"/welcome","/index"})
+    @RequestMapping(value = {"/welcome","/index"}, method = RequestMethod.GET)
     public String get(Map<String, Object> model){
         model.put("msg","Hello world");
         return "HelloWorldPage";
