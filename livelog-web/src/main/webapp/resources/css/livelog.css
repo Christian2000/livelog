@@ -1,0 +1,14 @@
+body {
+    font-size: 100%;
+    background-color: #94C3E2;
+    font-variant: small-caps;
+}
+.header h1 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 40px;
+    color: #14547E;
+}
+.messageToUser {
+    color: #447290;
+}
