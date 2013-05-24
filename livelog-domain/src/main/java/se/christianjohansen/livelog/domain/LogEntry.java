@@ -4,7 +4,7 @@ import se.christianjohansen.livelog.domain.client.LoggingClient;
 
 import java.util.Set;
 
-public class LogEntry {
+class LogEntry {
     private LoggingClient loggingSystem;
     private String logMessage;
     private Long timestamp;

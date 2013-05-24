@@ -16,7 +16,7 @@ http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
     <tx:annotation-driven transaction-manager="transactionManager" />
 
-    <!-- Declare a datasource that has pooling capabilities-->
+    <!-- Declare a data source that has pooling capabilities-->
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
           destroy-method="close"
           p:driverClass="${database.driver}"
@@ -31,7 +31,7 @@ http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
     <!-- Declare a JPA entityManagerFactory-->
     <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean" >
-        <property name="persistenceXmlLocation" value="classpath*:META-INF/persistence.xml"></property>
+        <property name="persistenceXmlLocation" value="classpath*:META-INF/persistence.xml"/>
         <property name="persistenceUnitName" value="hibernatePersistenceUnit" />
         <property name="dataSource" ref="dataSource"/>
         <property name="jpaVendorAdapter">
